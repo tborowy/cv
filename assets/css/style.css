@@ -1,0 +1,49 @@
+img.profile {
+  width: 100%;
+  height: auto;
+}
+
+.page-break {
+  display: none;
+}
+.page-filler {
+  display: none;
+}
+.main-wrapper {
+  padding-right: 340px;
+}
+.sidebar-wrapper {
+  width: 280px;
+}
+.main-wrapper .section-title .icon-holder .svg-inline--fa {
+  font-size: 18px;
+  margin-top: 6px;
+  margin-left:1px;
+}
+.gdpr {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
+  .page-break{
+    display: block;
+    page-break-before: always;
+    height: 50px;
+  }
+  .wrapper{
+    margin: 0 !important;
+    max-width: unset;
+  }
+  .wrapper .skills-section{
+    margin-top: 40px;
+    height: 100%;
+  }
+  .footer {
+    display: none;
+  }
+}
