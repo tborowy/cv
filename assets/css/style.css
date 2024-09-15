@@ -15,10 +15,22 @@ img.profile {
 .sidebar-wrapper {
   width: 280px;
 }
+.main-wrapper .section-title .icon-holder {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: unset;
+}
+.main-wrapper .section-title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 .main-wrapper .section-title .icon-holder .svg-inline--fa {
   font-size: 18px;
-  margin-top: 6px;
-  margin-left:1px;
+  margin-top: unset;
 }
 .gdpr {
   max-width: 960px;
